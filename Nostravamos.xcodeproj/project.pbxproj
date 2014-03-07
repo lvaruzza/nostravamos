@@ -22,6 +22,7 @@
 		F85162A118C9104800490292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F851628018C9104700490292 /* UIKit.framework */; };
 		F85162A918C9104800490292 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F85162A718C9104800490292 /* InfoPlist.strings */; };
 		F85162AB18C9104800490292 /* NostravamosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85162AA18C9104800490292 /* NostravamosTests.m */; };
+		F85162B618C911CB00490292 /* NosGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F85162B518C911CB00490292 /* NosGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		F85162A618C9104800490292 /* NostravamosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NostravamosTests-Info.plist"; sourceTree = "<group>"; };
 		F85162A818C9104800490292 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F85162AA18C9104800490292 /* NostravamosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NostravamosTests.m; sourceTree = "<group>"; };
+		F85162B418C911CB00490292 /* NosGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NosGenerator.h; sourceTree = "<group>"; };
+		F85162B518C911CB00490292 /* NosGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NosGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				F851629518C9104800490292 /* NosViewController.m */,
 				F851629718C9104800490292 /* Images.xcassets */,
 				F851628318C9104700490292 /* Supporting Files */,
+				F85162B418C911CB00490292 /* NosGenerator.h */,
+				F85162B518C911CB00490292 /* NosGenerator.m */,
 			);
 			path = Nostravamos;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85162B618C911CB00490292 /* NosGenerator.m in Sources */,
 				F851628918C9104700490292 /* main.m in Sources */,
 				F851629618C9104800490292 /* NosViewController.m in Sources */,
 				F851628D18C9104700490292 /* NosAppDelegate.m in Sources */,
